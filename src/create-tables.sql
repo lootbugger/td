@@ -1,0 +1,6 @@
+DROP TABLE IF EXISTS tasks;
+CREATE TABLE tasks (
+  id         INT AUTO_INCREMENT NOT NULL,
+  body      VARCHAR(128) NOT NULL,
+  PRIMARY KEY (`id`)
+);
